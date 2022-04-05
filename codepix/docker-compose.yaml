@@ -2,7 +2,7 @@ version: "3"
 
 services:
   app:
-    build: ..
+    build: ../..
     ports:
     - "50051:50051"
     volumes:
